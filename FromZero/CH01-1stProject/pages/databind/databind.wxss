@@ -3,3 +3,13 @@
   padding: 20rpx;
   border: 1px solid #eee;
 }
+
+.blockview {
+  margin-top: 100px;
+  color: rgb(196, 30, 72);
+}
+
+.ifelse {
+  margin-top: 10px;
+  color: rgb(25, 236, 183);
+}

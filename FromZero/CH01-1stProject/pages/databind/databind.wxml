@@ -1,14 +1,18 @@
 <view class="container">
-  <view class="content">
-    <text>{{content}}</text>
+  <view wx:for="{{users}}" class="content">
+    <text>{{index}}-{{item.name}}-{{item.age}}</text>
   </view>
-  <view class="content" hidden="{{flag ? true : false}}">
-    <text>{{hiddencontent}}</text>
-  </view>
-  <view class="content">
-    <text>{{num1}} + {{num2}} = {{num1+num2}}</text>
-  </view>
-  <view>
-    <text>{{"hello " + user.name}}</text>
-  </view>
+
+<view class="blockview">
+  <block wx:if="{{condition}}">
+    <view>View One</view>
+    <view>View Two</view>
+  </block>
+</view>
+
+<view class="ifelse">
+  <view wx:if="{{length > 5}}"> bigger than 5 </view>
+  <view wx:elif="{{length >2}}"> bigger than 2 </view>
+  <view wx:else> others </view>
+</view>
 </view>

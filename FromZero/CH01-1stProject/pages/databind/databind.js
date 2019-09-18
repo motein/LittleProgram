@@ -13,7 +13,16 @@ Page({
     user: {
       name: "spark",
       age: 18
-    }
+    },
+    condition: true,
+    length: 10,
+    users: [{
+      name: "spark",
+      age: 18
+    }, {
+        name: "lucky",
+        age: 20
+      }]
   },
 
   /**
