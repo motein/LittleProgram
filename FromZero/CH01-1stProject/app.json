@@ -1,24 +1,34 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/databind/databind"
   ],
   "tabBar": {
     "color": "#dddddd",
     "selectedColor": "#3cc51f",
     "borderStyle": "black",
     "backgroundColor": "#88ff11",
-    "list": [{
-      "pagePath": "pages/index/index",
-      "iconPath": "image/index1.png",
-      "selectedIconPath": "image/index2.png",
-      "text": "Index"
-    }, {
-      "pagePath": "pages/logs/logs",
-      "iconPath": "image/logs1.png",
-      "selectedIconPath": "image/logs2.png",
-      "text": "Logs"
-    }]
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/index1.png",
+        "selectedIconPath": "image/index2.png",
+        "text": "Index"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "image/logs1.png",
+        "selectedIconPath": "image/logs2.png",
+        "text": "Logs"
+      },
+      {
+        "pagePath": "pages/databind/databind",
+        "iconPath": "image/databind1.png",
+        "selectedIconPath": "image/databind2.png",
+        "text": "DataBind"
+      }
+    ]
   },
   "networkTimeout": {
     "request": 10000,
