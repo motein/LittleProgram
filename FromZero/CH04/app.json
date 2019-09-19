@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/calc/calc",
+    "pages/history/history"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#88ff11",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/index1.png",
+        "selectedIconPath": "image/index2.png",
+        "text": "Index"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "image/logs1.png",
+        "selectedIconPath": "image/logs2.png",
+        "text": "Logs"
+      },
+      {
+        "pagePath": "pages/calc/calc",
+        "iconPath": "image/calc1.png",
+        "selectedIconPath": "image/calc2.png",
+        "text": "Calc"
+      }
+    ]
+  }
+}
