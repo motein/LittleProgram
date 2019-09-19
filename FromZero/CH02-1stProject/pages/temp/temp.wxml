@@ -1,0 +1,5 @@
+<import src="template.wxml"/>
+<template is="item" data="{{text: 'import test'}}"/>
+
+<include src="header.wxml"/>
+<view>页面内容</view>

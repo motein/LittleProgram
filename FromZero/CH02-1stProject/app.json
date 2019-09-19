@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/databind/databind"
+    "pages/databind/databind",
+    "pages/temp/temp"
   ],
   "tabBar": {
     "color": "#dddddd",
@@ -27,6 +28,12 @@
         "iconPath": "image/databind1.png",
         "selectedIconPath": "image/databind2.png",
         "text": "DataBind"
+      },
+      {
+        "pagePath": "pages/temp/temp",
+        "iconPath": "image/temp1.png",
+        "selectedIconPath": "image/temp2.png",
+        "text": "Template"
       }
     ]
   },

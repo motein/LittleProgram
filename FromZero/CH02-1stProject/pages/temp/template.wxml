@@ -1,0 +1,5 @@
+<view class="container">
+  <template name="item">
+    <text>{{text}}</text>
+  </template>
+</view>

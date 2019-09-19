@@ -1,0 +1,4 @@
+<view class="header">
+  <image src="../../image/yoho.jpeg"></image>
+  <text>APP标题</text>
+</view>
