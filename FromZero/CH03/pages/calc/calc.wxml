@@ -1,0 +1,8 @@
+<view class="content">
+  <view class="section_title">被加数</view>
+  <slider min="0" max="1000" bindchange="bindInput1" show-value/>
+  <view class="section_title">加数</view>
+  <slider min="0" max="1000" bindchange="bindInput2" show-value/>
+  <button type="primary" bindtap="bindAdd">计算</button>
+  <view class="section_title">结果：{{result}}</view>
+</view>
