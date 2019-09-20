@@ -2,7 +2,9 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/switch/switch"
+    "pages/switch/switch",
+    "pages/calc/calc",
+    "pages/history/history"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -31,9 +33,15 @@
       },
       {
         "pagePath": "pages/switch/switch",
+        "iconPath": "image/button1.png",
+        "selectedIconPath": "image/button2.png",
+        "text": "Switch"
+      },
+      {
+        "pagePath": "pages/calc/calc",
         "iconPath": "image/calc1.png",
         "selectedIconPath": "image/calc2.png",
-        "text": "Switch"
+        "text": "Calc"
       }
     ]
   }
