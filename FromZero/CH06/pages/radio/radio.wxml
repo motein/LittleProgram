@@ -1,0 +1,18 @@
+<!--pages/radio/radio.wxml-->
+<view class="content">
+  <view class="page_hd">
+    <text class="page_title">选择目的地</text>
+  </view>
+  <view class="page_bd">
+    <view class="section section_gap">
+      <radio-group class="radio-group" bindchange="radioChange">
+        <label class="radio" wx:for="{{items}}">
+          <radio value="{{item.name}}" checked="{{item.checked}}"/>
+          {{item.value}}
+        </label>
+      </radio-group>
+    </view>
+  </view>
+
+
+</view>
