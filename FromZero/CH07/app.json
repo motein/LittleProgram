@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/loading/loading",
+    "pages/travel/travel",
+    "pages/toast/toast",
+    "pages/showtoast/showtoast"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ff0000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/index1.png",
+        "selectedIconPath": "image/index2.png",
+        "text": "Index"
+      },
+      {
+        "pagePath": "pages/loading/loading",
+        "iconPath": "image/loading1.png",
+        "selectedIconPath": "image/loading2.png",
+        "text": "Loading"
+      },
+      {
+        "pagePath": "pages/travel/travel",
+        "iconPath": "image/travel1.png",
+        "selectedIconPath": "image/travel2.png",
+        "text": "Travel"
+      },
+      {
+        "pagePath": "pages/toast/toast",
+        "iconPath": "image/toast1.png",
+        "selectedIconPath": "image/toast2.png",
+        "text": "Toast"
+      },
+      {
+        "pagePath": "pages/showtoast/showtoast",
+        "iconPath": "image/showtoast1.png",
+        "selectedIconPath": "image/showtoast2.png",
+        "text": "ShowToast"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+<view class="page">
+  <view class="page_hd">
+    <text class="page_title">loading加载提示</text>
+  </view>
+
+  <view class="page_bd">
+    <view class="btn-area">
+      <view class="body-view">
+        <loading hidden="{{hidden}}" bindtap="loadingtap">
+        加载中，单击退出...
+        </loading>
+        <button type="default" bindtap="loadingTap1">事件loading</button>
+      </view>
+      <view class="body-view">
+        <loading hidden="{{hidden2}}">
+        {{time}}秒后退出...
+        </loading>
+        <button type="default" bindtap="loadingTap2">定时loading</button>
+      </view>
+    </view>
+  </view>
+</view>

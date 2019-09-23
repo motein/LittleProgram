@@ -1,0 +1,16 @@
+<view class="page">
+  <view class="page_hd">
+    <text class="page_title">showtoast提示</text>
+  </view>
+
+  <view class="page_bd">
+    <view class="btn-area">
+      <button type="default" bindtap="showtoast1Tap">默认loading</button>
+      <button type="default" bindtap="showtoast2Tap">5秒关闭loading</button>
+    </view>
+    <view class="btn-area" style="margin-top:80rpx;">
+        <button type="default" bindtap="showtoast3Tap">默认toast</button>
+        <button type="default" bindtap="showtoast4Tap">5秒关闭toast</button>
+    </view>
+  </view>
+</view>
