@@ -1,4 +1,4 @@
-// pages/modal2/modal2.js
+// pages/action-sheet/action-sheet.js
 Page({
 
   /**

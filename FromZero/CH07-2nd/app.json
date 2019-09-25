@@ -3,7 +3,7 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/modal/modal",
-    "pages/modal2/modal2"
+    "pages/action-sheet/action-sheet"
   ],
   "window": {
     "backgroundTextStyle": "light",
