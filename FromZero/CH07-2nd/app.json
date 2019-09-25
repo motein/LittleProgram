@@ -26,9 +26,15 @@
       },
       {
         "pagePath": "pages/modal/modal",
-        "iconPath": "image/loading1.png",
-        "selectedIconPath": "image/loading2.png",
+        "iconPath": "image/modal1.png",
+        "selectedIconPath": "image/modal2.png",
         "text": "Modal"
+      },
+      {
+        "pagePath": "pages/action-sheet/action-sheet",
+        "iconPath": "image/action-sheet1.png",
+        "selectedIconPath": "image/action-sheet2.png",
+        "text": "Action-Sheet"
       }
     ]
   }
