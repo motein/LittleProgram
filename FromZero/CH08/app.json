@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/audio/audio",
+    "pages/audioapi/audioapi",
+    "pages/video/video"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ff0000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/index1.png",
+        "selectedIconPath": "image/index2.png",
+        "text": "Index"
+      },
+      {
+        "pagePath": "pages/audio/audio",
+        "iconPath": "image/audio1.png",
+        "selectedIconPath": "image/audio2.png",
+        "text": "Audio"
+      },
+      {
+        "pagePath": "pages/audioapi/audioapi",
+        "iconPath": "image/audioapi1.png",
+        "selectedIconPath": "image/audioapi2.png",
+        "text": "Audio API"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "iconPath": "image/video1.png",
+        "selectedIconPath": "image/video2.png",
+        "text": "Video"
+      }
+    ]
+  }
+}
