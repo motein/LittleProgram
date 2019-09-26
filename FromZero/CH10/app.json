@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/photo/photo",
+    "pages/record/record",
+    "pages/getlocation/getlocation",
+    "pages/networktype/networktype",
+    "pages/sysinfo/sysinfo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ff0000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/index1.png",
+        "selectedIconPath": "image/index2.png",
+        "text": "Index"
+      },
+      {
+        "pagePath": "pages/photo/photo",
+        "iconPath": "image/getweixin1.png",
+        "selectedIconPath": "image/getweixin2.png",
+        "text": "Photo"
+      },
+      {
+        "pagePath": "pages/record/record",
+        "iconPath": "image/getweixin1.png",
+        "selectedIconPath": "image/getweixin2.png",
+        "text": "Record"
+      },
+      {
+        "pagePath": "pages/getlocation/getlocation",
+        "iconPath": "image/getweixin1.png",
+        "selectedIconPath": "image/getweixin2.png",
+        "text": "Get Location"
+      },
+      {
+        "pagePath": "pages/networktype/networktype",
+        "iconPath": "image/getweixin1.png",
+        "selectedIconPath": "image/getweixin2.png",
+        "text": "Network Type"
+      }
+    ]
+  }
+}
