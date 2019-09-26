@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/getweixin/getweixin",
+    "pages/phonehome/phonehome"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ff0000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/index1.png",
+        "selectedIconPath": "image/index2.png",
+        "text": "Index"
+      },
+      {
+        "pagePath": "pages/getweixin/getweixin",
+        "iconPath": "image/getweixin1.png",
+        "selectedIconPath": "image/getweixin2.png",
+        "text": "GetWeixin"
+      },
+      {
+        "pagePath": "pages/phonehome/phonehome",
+        "iconPath": "image/phonehome1.png",
+        "selectedIconPath": "image/phonehome2.png",
+        "text": "GetWeixin"
+      }
+    ]
+  }
+}
