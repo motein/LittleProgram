@@ -31,9 +31,11 @@ int main() {
 		fflush (stdout);
 	}
 	// Calculate and report duration of batch
-	printf ("Total elapsed time: %d msec\n", (int) (s_clock () - start_time));
+	printf ("\nTotal elapsed time: %d msec\n", (int) (s_clock () - start_time));
 	zmq_close (receiver);
 	zmq_ctx_destroy (context);
+
+	getchar();
 
 	return 0;
 }

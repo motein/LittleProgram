@@ -19,7 +19,7 @@ int main() {
 	printf ("Sending tasks to workers...\n");
 
 	// The first message is "0" and signals start of batch
-	s_send (sink, "0");
+	s_send (sink, (char*)"0");
 
 	// Initialize random number generator
 	srandom ((unsigned) time (NULL));
@@ -38,11 +38,13 @@ int main() {
 		s_send (sender, string);
 	}
 
-	printf ("Total expected cost: %d msec\n", total_msec);
+	printf ("\nTotal expected cost: %d msec\n", total_msec);
 	Sleep (1); // Give 0MQ time to deliver
 
 	zmq_close (sink);
 	zmq_close (sender);
 	zmq_ctx_destroy (context);
+
+	getchar();
 	return 0;
 }
